@@ -15,12 +15,10 @@ function Player(turn) {
   this.playerName;
 }
 
-// checking for 1
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
   this.currentscore = 0;
   alert("Sorry " + this.playerName + ", you rolled a 1! Your turn is over!")
-  // this.changeturn();
   } else {
   this.currentscore += this.roll;
   }
@@ -30,11 +28,9 @@ Player.prototype.rollone = function() {
 Player.prototype.hold = function () {
   this.totalscore += this.currentscore;
   this.currentscore = 0;
-  // this.changeturn();
   alert(this.playerName + ", your turn is over, pass the mouse!");
 }
 
-// // changing turn
 Player.prototype.changeturn = function () {
   if (this.roll ===1) {
     this.turn = false;
@@ -50,7 +46,7 @@ Player.prototype.winnerCheck = function () {
 }
 
 Player.prototype.newGame = function () {
-  //debugger;
+
   this.roll = 0;
   this.currentscore = 0;
   this.totalscore = 0;
@@ -92,7 +88,6 @@ $(document).ready(function() {
     $("#round-total-2").empty();
     $("#total-score-2").empty();
     $("#die-roll-2").empscore = 0;
-  // this.changety();
 
     $(".start-menu").show();
   });
