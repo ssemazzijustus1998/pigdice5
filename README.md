@@ -25,4 +25,4 @@ reach out for Support on ssemazzijustus@gmail.com and +256700458282
 License Copyright (c) 2018 ssemazzi justus
 
 ### the link to my website
-https://ssemazzijustus1998.github.io/pigdice/
+https://ssemazzijustus1998.github.io/pigdice4/
