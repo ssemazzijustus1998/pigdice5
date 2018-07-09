@@ -1,0 +1,29 @@
+#welcome{
+text-align: center;
+
+}
+#start{
+text-align: center;
+
+}
+#new{
+text-align: center;
+
+}
+.start-menu{
+background-color:#778899;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+}
+
+.player-console{
+text-align: center;
+background-image: url(../images/black-and-white-board-board-game-122427.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height:700px;
+font-family: 'Shrikhand', cursive;
+font-size: 30px;
+color:black;
+}
